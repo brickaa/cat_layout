@@ -32,7 +32,7 @@ body {
 	color: $fontColor;
 	text-align: center;
 	text-shadow: 2px 2px 2px #000;	
-		.title-block {
+		#title-header {
 			@include span-columns(8);
 			@include shift(2);	
 			.header {
@@ -74,16 +74,16 @@ body {
 						text-decoration: none;
 						}
 					}
-				li.image {
-						margin-right: 1em;
-						img {
+				}
+			.logo {
+				margin-right: 1em;
+					img {
 						max-height: 25px;
 						max-width:100%;
 						vertical-align: text-bottom;
 						float:right;
 						}
-					}
-				}
+				}	
 			}
 		}	
 #story-container {	
