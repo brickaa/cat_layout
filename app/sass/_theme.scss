@@ -17,19 +17,19 @@ body {
 			margin-top:20%;
 			width: 100%;
 			h1 {
-				font-size: 6.5em;
+				font-size: 5em;
 				text-transform: uppercase;
 			}
 			h3 {
 				font-size: 1.5em;
 				font-style: italic;
-				margin-bottom: 10%;
+				margin-bottom: 5%;
 			}
 		}
 	}
 	#nav-header {
 		z-index: 1;
-		background-image: $gray;
+		background-color: $gray_o;
 		ul {
 			height: 100%;
 			display: inline;
@@ -77,7 +77,7 @@ body {
 				margin: 0.5em 0 0.5em 0;
 				font-size: 1em;
 				font-style: italic;
-				color: $gray;
+				color: $gray_txt;
 				float: left;
 			}
 		}
@@ -89,7 +89,7 @@ body {
 		.story {
 			p {
 				font-size: 16px;
-				line-height: 26px;
+				line-height: 1.4em;
 				color: $offblack;
 			}
 			.media {
@@ -99,6 +99,16 @@ body {
 				.right {
 					float: right;
 				}
+				p {
+					font-size: 0.75em;
+					margin: 5px;
+					line-height: 1;
+					font-style: italic;
+					color: $gray_txt;
+					font-weight: bold;
+				}
+			}
+			.image-block {
 				img {
 					width: 60%;
 				}
@@ -107,13 +117,15 @@ body {
 					font-size: 1.5em;
 					color: $offblack;
 				}
-				p {
-					font-size: 0.75em;
-					margin: 5px;
-					line-height: 1;
-					font-style: italic;
-					color: $gray;
-					font-weight: bold;
+			}
+			.full {
+				img {
+					width: 100%;
+				}
+				h2 {
+					width: 100%;
+					font-size: 1.5em;
+					color: $offblack;
 				}
 			}
 		}

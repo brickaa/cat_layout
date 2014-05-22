@@ -18,7 +18,9 @@ $violet: rgb(116, 46, 102);
 $lightviolet: rgb(153, 61, 136);
 $purple: rgb(159, 130, 187);
 $lavender: rgb(231, 222, 238);
-$gray: rgba(146,154,163,0.5);
+$gray_o: rgba(146,154,163,0.5);
+$gray: rgba(146,154,163,1);
+$gray_txt: #888;
 
 @mixin visually-hidden {
   border: 0;

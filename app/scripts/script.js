@@ -10,7 +10,7 @@ $(document).ready(function() {
                 if( $(window).scrollTop() > stickyRibbonTop) {
                         $('#nav-header').css({position: 'fixed', top: '0px', background: 'rgba(146,154,163,1)', width: $("#story-container").css('width')});
                 } else {
-                        $('#nav-header').css({position: 'static', top: '0px', background: 'rgba(146,154,163,0.5)',});
+                        $('#nav-header').css({position: 'static', top: '0px', background: 'rgba(146,154,163,0.5)'});
                 }
         });
 
