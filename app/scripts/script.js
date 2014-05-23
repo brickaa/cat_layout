@@ -15,7 +15,7 @@ $(document).ready(function() {
         });
 
 		$(window).resize(function(){
-				$('#nav-header').css({width: $("#story-container").css('width')});
+				$('#nav-header').css({width: $(".story-container").css('width'), height: $(".lead-image".css('height'))});
 							});
 });
 

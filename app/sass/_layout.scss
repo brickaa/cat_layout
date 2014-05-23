@@ -1,16 +1,17 @@
-body {
+.header-wrapper {
 	@include outer-container();
 }
 
+.story-wrapper {
+	@include outer-container();
+}
 
 @include media($desktop) {
-	.main-nav {
-
-	}
-	.header-container {
+	#header-container {
+		@include span-columns(12);
 		.title-header {
-			@include span-columns(8);
-			@include shift(2);
+			@include span-columns(10 of 12);
+			@include shift(1);
 			}
 		#nav-header {
 				@include span-columns(12);
@@ -20,17 +21,12 @@ body {
 						@include omega();
 					}
 				}
-				.logo {
-					@include span-columns(2 of 12);
-					@include shift(10);
-				}
 			}
 	}	
 
 	.story-container {	
 		.story-body {
 			@include span-columns(10);
-			@include shift(1);
 			.story {
 				p {
 					@include span-columns(6 of 10);
