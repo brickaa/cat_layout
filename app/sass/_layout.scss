@@ -4,8 +4,11 @@ body {
 
 
 @include media($desktop) {
+	.main-nav {
+
+	}
 	.header-container {
-		#title-header {
+		.title-header {
 			@include span-columns(8);
 			@include shift(2);
 			}
@@ -24,7 +27,7 @@ body {
 			}
 	}	
 
-	#story-container {	
+	.story-container {	
 		.story-body {
 			@include span-columns(10);
 			@include shift(1);
@@ -42,8 +45,11 @@ body {
 }
 
 @include media($mobile) {
+	.main-nav {
+		
+	}
 	.header-container {
-		#title-header {
+		.title-header {
 			@include span-columns(10);
 			@include shift(1);
 			}
@@ -60,7 +66,7 @@ body {
 			}
 	}	
 
-	#story-container {	
+	.story-container {	
 		.story-body {
 			@include span-columns(12);
 			.story {

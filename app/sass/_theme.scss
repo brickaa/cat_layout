@@ -3,6 +3,16 @@ body {
 	background: $offwhite;
 }
 
+.main-nav {
+	background-color: $offblack;
+	height: 35px;
+	img {
+		max-width: 15%;
+		margin-top: 0.5em;
+		margin-left: 0.5em;
+	}
+}
+
 .header-container {
 	max-width: 100%;
 	background-image: url(http://www.placekitten.com/1397/600);
@@ -12,7 +22,7 @@ body {
 	color: $offwhite;
 	text-align: center;
 	text-shadow: 2px 2px 2px $offblack;
-	#title-header {
+	.title-header {
 		.header {
 			margin-top:20%;
 			width: 100%;
@@ -57,7 +67,7 @@ body {
 	}
 }	
 
-#story-container {	
+.story-container {	
 	.story-body {
 		background-color: $offwhite;
 		font: $helvetica;
@@ -66,9 +76,8 @@ body {
 		position: relative;
 		.headline {
 			h1 {
-				margin: 0.25em 0;
 				font-size: 3em;
-				font-weight: 700;
+				font-weight: bold;
 				line-height: 1;
 			}
 		}
@@ -88,11 +97,13 @@ body {
 		}
 		.story {
 			p {
-				font-size: 16px;
-				line-height: 1.4em;
+				font-size: 1em;
+				line-height: 1.5em;
 				color: $offblack;
 			}
 			.media {
+				margin-top: 0.75em;
+				margin-bottom: 0.75em;
 				.left {
 					float: left;
 				}
@@ -100,9 +111,9 @@ body {
 					float: right;
 				}
 				p {
-					font-size: 0.75em;
+					font-size: 0.85em;
 					margin: 5px;
-					line-height: 1;
+					line-height: 1em;
 					font-style: italic;
 					color: $gray_txt;
 					font-weight: bold;

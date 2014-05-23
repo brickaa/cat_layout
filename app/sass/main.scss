@@ -86,7 +86,7 @@ body {
 				}	
 			}
 		}	
-#story-container {	
+.story-container {	
 	@include outer-container();
 	background-color: #fff;
 	font: $font;
