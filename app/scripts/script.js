@@ -1,15 +1,21 @@
-$(document).ready(function() {
-	$(".story-container").fitVids();
-});
-
-
-$(function(){
+$(function () {
 	var $window = $(window),
 		$stickyEl = $('#nav-header'),
-		elTop = $stickyEl.offset().top;
-	$window.scroll(function() {
+		$headerEl = $('.story-wrapper'),
+		elTop = $headerEl.offset().top - 50;
+	$window.scroll(function () {
 		$stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
 	});
 
 });
 
+$(document).ready(function() {
+	$(".story-wrapper").fitVids();
+	$('.flexslider').flexslider({
+		slideshow: false,
+		prevText: " ",
+		nextText: " "
+	});
+    $('.flexslider').fitVids();
+    
+});

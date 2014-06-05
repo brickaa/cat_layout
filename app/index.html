@@ -25,6 +25,7 @@
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <script src="../scripts/script.js"></script>
     <script src="../scripts/jquery.fitvids.js"></script>
+    <script src="../scripts/jquery.flexslider.js"></script>
     <!-- endbuild -->
     
 </head>
@@ -34,13 +35,12 @@
         <![endif]-->
 <div class="container"> 
     <div class="header-wrapper">
-        <div class="header-container">
+        <div id="header-container" class="header-container">
             <div class="page-nav">
                 <div class="investigates-logo">
-                    <img src="https://s3.amazonaws.com/static.texastribune.org/media/series/Trib-Investigates-logo245x54.png" />
+                    <img src="//s3.amazonaws.com/apps.texastribune.org/branding/Trib-Investigates-logo1000x142.png" />
                 </div>
                 <div class="trib-logo">
-                    <p>A presentation of </p>
                     <a href="http://www.texastribune.org/"><img src="http://static.texastribune.org.s3.amazonaws.com/common/images/logo-wrap-head.png"></a>
                 </div>
             </div>
@@ -53,10 +53,38 @@
             <div class="clear"></div>
             <div id="nav-header" class="nav-header">
                 <ul>
-                    <li class="one"><a href="#">Santiago</a></li>
-                    <li class="two"><a href="#">Crystal</a></li>
-                    <li class="three"><a href="#">Lloyd</a></li>
-                    <li class="four"><a href="#">Texas Workers</a></li>
+                    <li>
+                        <div class="nav-image">
+                            <img src="http://placekitten.com/185/200">
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">Santiago</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-image">
+                            <img src="http://placekitten.com/185/200">
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">Santiago</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-image">
+                            <img src="http://placekitten.com/185/200">
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">Santiago</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-image">
+                            <img src="http://placekitten.com/185/200">
+                        </div>
+                        <div class="nav-link">
+                            <a href="#">Santiago</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -65,52 +93,148 @@
     <div class="lead-image"></div>
     <div class="story-wrapper">
         <div class="story-container">
-            <div class="story-body">
-                <div class="headline">
-                    <h1>Cat Saves Planet from Apocolypse</h1>
+            <h1>Cat Saves Planet from Apocolypse</h1>
+            <h3>By <a href="">The Texas Tribune</a> | July, 4, 2044</h3>
+            <div class="prose">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="media">
+                <div class="small-block block-quote">
+                    <h2>"Cigars on ice, cigars on ice. Feeling like an animal with these cameras all in my grill. Flashing lights, flashing lights. You got me faded, faded, faded"</h2>
+                    <p>-Talking Head</p>
                 </div>
-                <hr>
-                <div class="byline">
-                    <h3>By The Texas Tribune, July, 4, 2044</h3>
+                <div class="big-block">
+                    <img src="http://www.placekitten.com/800/400">
+                    <p class="caption">Here is a kitten. This caption was brought to you by Dogs.</p>
                 </div>
-                <div class="story">
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <div class="media full">
-                            <iframe width="560" height="315" src="//www.youtube.com/embed/tntOCGkgt98" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <div class="media image-block">
-                        <h2 class="right">"Cigars on ice, cigars on ice. Feeling like an animal with these cameras all in my grill. Flashing lights, flashing lights. You got me faded, faded, faded"</h2>
-                        <img src="http://www.placekitten.com/800/500" class="left">
-                        <p class="left">Here is a kitten. This caption was brought to you by Dogs.</p>
-                    </div>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <div class="media image-block">
-                        <h2 class="left">"I'm swerving on that, swerving, swerving on that big body. Been serving all this, swerve, surfing all in this good, good"</h2>
-                        <img src="http://www.placekitten.com/800/500" class="right">
-                        <p class="right">Here is a kitten. This caption was brought to you by Dogs.</p>
-                    </div>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultriciies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <div class="media full">
-                        <img src="http://www.placekitten.com/880/600">
-                        <p class="right">Here is a kitten. This caption was brought to you by Dogs.</p>
-
-                    </div>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                    
+            </div>
+            <div class="prose">    
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="media">
+                <img src="http://www.placekitten.com/800/350">
+                <p class="caption">Here is a kitten. This caption was brought to you by Dogs.</p>
+            </div>
+            <div class="prose">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="media">
+                <div class="big-block">
+                    <img src="http://www.placekitten.com/800/500" class="right">
+                    <p class="caption">Here is a kitten. This caption was brought to you by Dogs.</p>
                 </div>
+                <div class="small-block block-quote">
+                    <h2 class="left">"I'm swerving on that, swerving, swerving on that big body. Been serving all this, swerve, surfing all in this good, good"</h2>
+                    <p>- That Crazy Person</p>
+                </div>
+            </div>
+            <div class="prose">   
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p class="paragraph-header">Hello header</p>
+                <ul>
+                    <li>Pellentesque habitant morbi tristique senectus et netus</li>
+                    <li>Pellentesque habitant morbi tristique senectus et netus</li>
+                    <li>Pellentesque habitant morbi tristique senectus et netus</li>
+                </ul>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="media">
+                <div class="flexslider">
+                  <ul class="slides">
+                    <li>
+                        <h4>Dynamics of the Texas Workers Compensation System</h4>
+                        <div class="small-block-slider">
+                            <p>The Texas Department of Insurance has reported dramatic improvements in the Texas worker’s compensation system since legislative reforms were approved in 2005. But workers and consumer advocates argue the changes made by the department have unfairly benefited the insurance industry — ultimately, causing more harm to injured workers and their families.</p>
+                        </div>
+                        <div class="big-block slider-image">
+                            <img src="http://www.placekitten.com/600/300" />
+                        </div>
+                    </li>
+                    <li>
+                        <h4 class="slider-title">Dynamics of the Texas Workers Compensation System</h4>
+                        <p class="slide">Premium rates are up!</p>
+                    </li>
+                    <li>
+                      <img src="http://www.placekitten.com/600/300" />
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="prose">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultriciies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="media block-quote">
+                <h2>"Cigars on ice, cigars on ice. Feeling like an animal with these cameras all in my grill. Flashing lights, flashing lights. You got me faded, faded, faded"</h2>
+            </div>
+            <div class="prose">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </div>
+            <div class="media">
+                <div class="small-block block-quote">
+                    <h2 class="right">"Cigars on ice, cigars on ice. Feeling like an animal with these cameras all in my grill. Flashing lights, flashing lights. You got me faded, faded, faded"</h2>
+                </div>
+                <div class="big-block">
+                    <img src="http://www.placekitten.com/800/500" class="left">
+                    <p class="caption">Here is a kitten. This caption was brought to you by Dogs.</p>
+                </div>
+            </div>
+            <div class="prose">
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <div class="block-quote">
+                    <h2 class="left">"I'm swerving on that, swerving, swerving on that big body. Been serving all this, swerve, surfing all in this good, good"</h2>
+                    <p>- Queen B!</p>
+                </div>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
             </div>
         </div>
     </div>
+</div>
+    <footer class="footer">
+        <div class="app-container">
+        <div>
+          <a href="https://twitter.com/newsapps"><img class="logo" src="//s3.amazonaws.com/apps.texastribune.org/branding/TxTrib-NewsApps.svg"></a>
+        </div>
+        <div>
+        <ul>
+          <li>SECTIONS</li>
+          <li><a href="/economy/" data-section="economy">Economy</a></li>
+          <li><a href="/education/" data-section="education">Education</a></li>
+          <li><a href="/energy-and-environment/" data-section="energy-and-environment">Energy &amp; Environment</a></li>
+          <li><a href="/government/" data-section="government">Government</a></li>
+          <li><a href="/health-and-human-services/" data-section="health-and-human-services">Health &amp; Human Services</a></li>
+          <li><a href="/law-and-order/" data-section="law-and-order">Law &amp; Order</a></li>
+          <li><a href="/people/" data-section="people">People</a></li>
+          <li><a href="/politics/" data-section="politics">Politics</a></li>
+          <li><a href="/race-and-immigration/" data-section="race-and-immigration">Race &amp; Immigration</a></li>
+          <li><a href="/transportation/" data-section="transportation">Transportation</a></li>
+        </ul>
+        </div>
+        <div>
+          <ul>
+            <li>© 2014 The Texas Tribune</li>
+            <li><a href="#TODO">About Us</a></li>
+            <li><a href="#TODO">Who Funds Us?</a></li>
+            <li><a href="#TODO">Terms of Service</a></li>
+            <li><a href="#TODO">Code of Ethics</a></li>
+            <li><a href="#TODO">Privacy Policy</a></li>
+            <li><a href="#TODO">Corrections</a></li>
+            <li><a href="#TODO">Advertise</a></li>
+            <li><a href="#TODO">Newsletter Signup</a></li>
+            <li><a href="#TODO">Donate</a></li>
+        </ul>
+        </div>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
