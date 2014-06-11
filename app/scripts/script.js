@@ -1,10 +1,12 @@
 $(function () {
 	var $window = $(window),
-		$stickyEl = $('#nav-header'),
-		$headerEl = $('.story-wrapper'),
-		elTop = $headerEl.offset().top - 50;
+		$stickyEl = $('#nav-bar'),
+		$wrapperEl = $('.story-wrapper'),
+		$headerEl = $('.header'),
+		elTop = $wrapperEl.offset().top;
 	$window.scroll(function () {
 		$stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+		$headerEl.toggleClass('margin-top', $window.scrollTop() > elTop);
 	});
 
 });

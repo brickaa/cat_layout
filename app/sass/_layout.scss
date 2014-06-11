@@ -10,20 +10,23 @@
 				@include shift(2);
 			}
 		}
-		.nav-header {
+	}
+}
+.story-wrapper {
+	@include outer-container();
+	.nav-bar {
+		ul {
 			@include span-columns(12);
-			ul {
-				li {
+			@include pad(0);
+			li {
+				@include span-columns(12 of 12);
+				@include media($desktop) {
 					@include span-columns(3 of 12);
-					@include omega();
+					@include omega(4n);
 				}
 			}
 		}
 	}
-}
-
-.story-wrapper {
-	@include outer-container();
 	.story-container {
 		@include span-columns(12);
 		.prose {
@@ -51,12 +54,35 @@
 				}
 			}
 		}
-		.worker-faces {
-			@include span-columns(5 of 10);
+		.about {
+			@include span-columns(12);
+			@include media($desktop) {
+				@include span-columns(8 of 12);
+				@include shift(2);
+			}
+			ul {
+				@include pad(0);
+				li {
+					@include span-columns(12 of 12);
+					@include media($desktop) {
+						@include span-columns(4 of 8);
+						@include omega(2n);
+					}
+				}
+			}
 		}
-		.worker-names {
-			@include span-columns(5 of 10);
+	}
+	.worker-faces {
+		@include span-columns(12);
+		@include media($desktop) {
+			@include span-columns(6);
 		}
+	}
+	.worker-wall {
+		@include span-columns(12);
+		@include media($desktop) {
+			@include span-columns(6);
+		}		
 	}		
 }
 	
